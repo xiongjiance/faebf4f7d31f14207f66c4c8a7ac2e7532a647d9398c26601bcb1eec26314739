@@ -1,9 +1,9 @@
 name: xiongjiance
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
+    - cron: '44 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiongjiance
         env:
-          qyct3: ${{ secrets.qyct3 }}
+          zx4: ${{ secrets.zx4 }}
         run: |
-          echo $qyct3 | jq -r .hmqh0316 | /bin/bash
-          echo $hb1244 | jq -r .u2576 | /bin/bash
-          echo $mlpci45377 | jq -r .psgs9764 | /bin/bash
-          echo $rm36 | jq -r .zoil0993 | /bin/bash
-          echo $e9 | jq -r .zfyou65 | /bin/bash
-          echo $y8 | jq -r .qxkq387 | /bin/bash
-          echo $fwg5733 | jq -r .dixxv21 | /bin/bash
-          echo $m96 | jq -r .ml1 | /bin/bash
-          echo $sfqac090 | jq -r .o3 | /bin/bash
-          echo $yqob7141 | jq -r .dcj22 | /bin/bash
-          echo $tlvqs03 | jq -r .m61 | /bin/bash
-          echo $o79299 | jq -r .gosbg81641 | /bin/bash
-          echo $fqcn96967 | jq -r .gf7451 | /bin/bash
+          echo $zx4 | jq -r .skau6 | /bin/bash
+          echo $cen51946 | jq -r .e289 | /bin/bash
+          echo $hfvi67 | jq -r .pxdyt9529 | /bin/bash
+          echo $i3528 | jq -r .wbrao2 | /bin/bash
+          echo $lom852 | jq -r .ts778 | /bin/bash
+          echo $vrrwd0 | jq -r .bq6 | /bin/bash
+          echo $dq25 | jq -r .i322 | /bin/bash
+          echo $fafup9297 | jq -r .i0 | /bin/bash
+          echo $ufkm8 | jq -r .jcabf0096 | /bin/bash
 
